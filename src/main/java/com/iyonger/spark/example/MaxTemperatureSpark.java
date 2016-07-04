@@ -10,10 +10,12 @@ import org.apache.spark.api.java.function.Function2;
 import org.apache.spark.api.java.function.PairFunction;
 import scala.Tuple2;
 
+import java.io.Serializable;
+
 /**
  * Created by yongfu on 7/4/2016.
  */
-public class MaxTemperatureSpark {
+public class MaxTemperatureSpark implements Serializable{
     String input;
     String output;
 
