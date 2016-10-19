@@ -38,8 +38,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="292">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -48,13 +48,23 @@
       <file leaf-file-name="NewJavaWordCount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iyonger/spark/example/NewJavaWordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+            <state relative-caret-position="301">
+              <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1901#2121#0" expanded="true" />
-                <element signature="e#2120#2121#0" expanded="true" />
+                <element signature="e#1917#2137#0" expanded="true" />
+                <element signature="e#2136#2137#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/java/lang/String.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="1041" column="20" selection-start-line="1041" selection-start-column="20" selection-end-line="1041" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,16 +107,6 @@
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaSparkContext.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.6.2/spark-core_2.10-1.6.2.jar!/org/apache/spark/api/java/JavaSparkContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3009">
-              <caret line="178" column="85" selection-start-line="178" selection-start-column="85" selection-end-line="178" selection-end-column="85" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -772,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476849620784</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bug fix&#10;">
+      <created>1476853392222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1476853392222</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,7 +818,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add example&#10;" />
     <MESSAGE value="change compiler target version&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="change compiler target version&#10;" />
+    <MESSAGE value="bug fix&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1120,20 +1128,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="292">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="1041" column="20" selection-start-line="1041" selection-start-column="20" selection-end-line="1041" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iyonger/spark/example/NewJavaWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        <state relative-caret-position="301">
+          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1901#2121#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#1917#2137#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
           </folding>
         </state>
       </provider>
