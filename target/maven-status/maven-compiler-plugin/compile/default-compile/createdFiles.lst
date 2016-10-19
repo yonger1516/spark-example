@@ -1,6 +1,12 @@
+com\iyonger\spark\example\TeraGen.class
+com\iyonger\spark\example\MaxTemperatureSpark$2.class
+com\iyonger\spark\example\NewJavaWordCount$1.class
+com\iyonger\spark\example\WordCount.class
+com\iyonger\spark\example\NewJavaWordCount$3.class
+com\iyonger\spark\example\SparkMain.class
 com\iyonger\spark\example\MaxTemperatureSpark$1.class
 com\iyonger\spark\example\MaxTemperatureSpark$4.class
-com\iyonger\spark\example\MaxTemperatureSpark$2.class
+com\iyonger\spark\example\NewJavaWordCount$2.class
 com\iyonger\spark\example\MaxTemperatureSpark$3.class
 com\iyonger\spark\example\MaxTemperatureSpark.class
-com\iyonger\spark\example\SparkMain.class
+com\iyonger\spark\example\NewJavaWordCount.class
