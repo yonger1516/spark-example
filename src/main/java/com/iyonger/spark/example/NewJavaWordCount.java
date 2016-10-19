@@ -35,8 +35,10 @@ public class NewJavaWordCount {
 
         JavaRDD<String> words = lines.flatMap(new FlatMapFunction<String, String>() {
             public Iterator<String> call(String s) throws Exception {
-                String line = replaceNonLetter(s);
-
+                String line = replaceNonLetter(s).trim();
+                if (line.isEmpty()){
+                    return new ArrayList<String>().iterator();
+                }
                 logger.info("line after replacement:"+line.trim());
 
                 return Arrays.asList(SPACE.split(line.trim())).iterator();
